@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abram Home</title>
+    <link  rel="stylesheet" href="css/stylehome.css"> 
+    <!-- render all element normalize -->
+    <link  rel="stylesheet" href="css/normalize.css">
+    <!-- font awesome library for i can change photo size and color eazly -->
+    <link rel="stylesheet" href="css/all.min.css"> 
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,500;0,600;0,700;0,800;1,200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <audio autoplay loop id="myVideo" src="Music/Aladdin 2019 Dancing with Jasmine (192 kbps).mp3" title="audio/mp3">
+    </audio>
+
+    <div class="Header"></div>
+        <!-- Navigation -->
+        <div class="Navigation">
+            <ul>
+                <li><a href="#Products" class="Nav">Products</a></li>
+                <li><a href="#contact" class="Nav">Contact Us</a></li>
+                <li><a href="MusicalInstruments.html" target="_blank" class="Nav"> Prices</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    
+
+    <!-- Start Content -->   
+    <div class="Container">
+    
+        <div class="HOME">         
+            <img id="bgimg" class="imgbg" src="Images/musical-instruments.jpg" >
+        <div id="home" class="About">
+          <h1 id="Products" class="">Kinds of Musical Instruments</h1>
+    </div>
+
+                <!-- Abram'world -->
+                        <!-- <div id="column" class="Bandmember">
+                            <h2 class="column">Band Members</h2>
+                            <div class="column">
+                            
+                            <div class="column">
+                            <img src="Images/img_bandmember 1.jpg" alt="Name1" style="width:60%;" >
+                            </div>
+                            
+                            <div class="column">
+                            <img src="Images/img_bandmember2.jpg" alt="Name2" style="width:60%">
+                            </div>
+                            
+                            <div class="column">
+                            <img src="Images/img_bandmember 3.jpg" alt="Name3" style="width:60%">
+                            </div>
+                            
+                            </div>
+                        </div> -->
+
+
+
+
+    <div class="row">
+        <div class="column">
+            <a href="MusicalInstruments.html" target="_blank" >
+            <img src="Images/abram2.jpg" alt="Abram" style="width:100%"></a>
+        <p style="text-align: center; font-size: large;font-weight: bold;">Violin</p>
+        </div>
+
+        <div class="column">
+            <a href="MusicalInstruments.html" target="_blank" >
+            <img src="Images/abram3.jpg" alt="Abram" style="width:100%"></a>
+        <p style="text-align: center; font-size: large;font-weight: bold;">Oud</p>
+        </div>
+
+        <div class="column">
+       <a href="MusicalInstruments.html" target="_blank" >
+        <img src="Images/abram4.jpg" alt="Abram" style="width:100%"></a>
+        <p style="text-align: center; font-size: large;font-weight: bold;">guitar</p>
+        </div>
+    </div>
+
+    <!-- ************************************************************ -->
+                        <!-- Contact -->
+                        <div id="contact" class="Contact">
+                            <h1 class="CONTACT">Contact Us</h1>
+                            <h3>Chicago, US<br>
+                            Phone: +00 151515<br>
+                            Email: mail@mail.com<br><h3>
+
+                            <form action="action_page.php">
+
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            
+                                <label for="country">Country</label>
+                                <select id="country" name="country">
+                                  <option value="Sohag">Sohag</option>
+                                  <option value="Cairo">Cairo</option>
+                                  <option value="6Octber City">OOctber City</option>
+                                </select>
+                            
+                                <label for="subject">Subject</label>
+                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                            
+                                <input type="submit" value="Submit">
+                            
+                              </form>
+                            <!-- End Content -->
+                        </div>
+    </div>
+    
+</body>
+</html>

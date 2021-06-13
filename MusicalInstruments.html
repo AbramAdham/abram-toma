@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicalInstruments</title>
+    <!-- render all element normalize -->
+    <link  rel="stylesheet" href="css/normalize.css">
+    <!-- font awesome library for i can change photo size and color eazly -->
+    <link rel="stylesheet" href="css/all.min.css"> 
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,500;0,600;0,700;0,800;1,200&display=swap" rel="stylesheet">
+</head>
+</body>
+    <style>
+        * {
+          box-sizing: border-box;
+          background-color:silver; 
+        }
+        
+        .columns {
+          float: left;
+          width: 33.3%;
+          padding: 8px;
+        }
+        
+        .price {
+          list-style-type: none;
+          border: 1px solid #eee;
+          margin: 0;
+          padding: 0;
+          -webkit-transition: 0.3s;
+          transition: 0.3s;
+        }
+        
+        .price:hover {
+          box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+        }
+        
+        .price .header {
+          background-color: #111;
+          color: white;
+          font-size: 25px;
+        }
+        
+        .price li {
+          border-bottom: 1px solid #eee;
+          padding: 20px;
+          text-align: center;
+        }
+        
+        .price .grey {
+          background-color: #eee;
+          font-size: 20px;
+        }
+        
+        .button {
+          background-color: #04AA6D;
+          border: none;
+          color: white;
+          padding: 10px 25px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 18px;
+        }
+        
+        @media only screen and (max-width: 600px) {
+          .columns {
+            width: 100%;
+          }
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h1 style="text-align:center">Musical Instruments Prices</h1>        
+        <div class="columns">
+          <ul class="price">
+            <li class="header">Violin</li>
+            <li class="grey">$ 9.99 / year</li>
+            <li>10GB Storage</li>
+            <li>10 Emails</li>
+            <li>10 Domains</li>
+            <li>1GB Bandwidth</li>
+            <li class="grey"><a href="#" class="button">Add to Cart</a></li>
+          </ul>
+        </div>
+        
+        <div class="columns">
+          <ul class="price">
+            <li class="header" style="background-color:#04AA6D">Oud</li>
+            <li class="grey">$ 24.99 / year</li>
+            <li>25GB Storage</li>
+            <li>25 Emails</li>
+            <li>25 Domains</li>
+            <li>2GB Bandwidth</li>
+            <li class="grey"><a href="#" class="button">Add to Cart</a></li>
+          </ul>
+        </div>
+        
+        <div class="columns">
+          <ul class="price">
+            <li class="header">Guitar</li>
+            <li class="grey">$ 49.99 / year</li>
+            <li>50GB Storage</li>
+            <li>50 Emails</li>
+            <li>50 Domains</li>
+            <li>5GB Bandwidth</li>
+            <li class="grey"><a href="#" class="button">Add to Cart</a></li>
+          </ul>
+        </div>
+           
+</body>
+</html>
